@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+int a, b, c, d, t;
+char sym;
+int main() {
+	printf("enter vectors");
+	scanf("%d%d",&a,&b);
+	_getc();
+	scanf("%d%d",&c,&d);
+	printf("");
+	_getc();
+	scanf("%c",&sym);
+	switch(sym)
+	{
+		case '+':
+			a = a+c;
+			b = b+d;
+		break;
+		case '-':
+			a = a-c;
+			b = b-d;
+		break;
+		case '*':
+			
+			
+		break;
+		printf("%d%d", a, b);
+	}
+	return 0;
+}
